@@ -54,6 +54,8 @@ article > p:last-child {
   border-bottom: 1px solid #999;
   margin: 0;
   margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+  padding-bottom: 1.3rem;
 }
 
 article ol {
@@ -66,7 +68,7 @@ blockquote {
   color: #555;
   font-size: 1.125rem;
   margin: 0;
-  margin-top: 1.2rem;
+  margin-top: 1.3rem;
 }
 
 .quote {
@@ -86,6 +88,7 @@ blockquote {
 
   article ol {
     margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
   }
 
   article header p {
@@ -97,8 +100,15 @@ blockquote {
     margin-top: 1.4rem;
   }
 
+  article > p:last-child {
+    margin-top: 1.3rem;
+    margin-bottom: 1.4rem;
+    padding-bottom: 1.4rem;
+  }
+
   blockquote {
-    margin-left: 2.5rem;
+    margin-left: 3rem;
+    margin-top: 1.2rem;
   }
 
 }
@@ -120,13 +130,29 @@ blockquote {
   }
 
   article header {
-    line-height: 1.6;
+    line-height: 1.7;
   }
 
   article header p {
     line-height: 1.6;
     margin-bottom: 1.5rem;
   }
+
+  article p {
+    margin-top: 1.5rem;
+  }
+
+  article ol {
+    margin-top: 1.5rem;
+  }
+
+  article > p:last-child {
+    margin-top: 1.4rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+
 
 }
 
