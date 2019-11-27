@@ -18,12 +18,20 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 article {
   max-width: 43em;
 }
 
 article h1 {
   font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 0;
 }
 
 article header {
@@ -32,18 +40,76 @@ article header {
 
 article header p {
   font-style: italic;
+  line-height: 1;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
 }
 
 article > p:last-child {
   border-bottom: 1px solid #999;
+  margin: 0;
 }
 
 blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin: 0;
+  margin-top: 1.5rem;
 }
 
 .quote {
   color: #999;
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  article h1 {
+    margin-top: 1.4rem;
+  }
+
+  article ol {
+    margin-top: 1.4rem;
+  }
+
+  article header p {
+    line-height: 1.4;
+    margin-bottom: 1.4rem;
+  }
+
+  article p {
+    margin-top: 1.4rem;
+  }
+
+  blockquote {
+    margin-left: 2.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  body {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  article h1 {
+    margin-top: 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
 }
