@@ -19,6 +19,7 @@ html {
 }
 
 body {
+  font-family: "Crimson Text", serif;
   margin: 0;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -38,16 +39,25 @@ article header {
   border-bottom: 1px solid #999;
 }
 
+article p {
+  margin-top: 1.5rem;
+}
+
 article header p {
   font-style: italic;
   line-height: 1;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.3rem;
   margin-top: 0;
 }
 
 article > p:last-child {
   border-bottom: 1px solid #999;
   margin: 0;
+}
+
+article ol {
+  padding-left: 1rem;
+  margin-top: 1.3rem;
 }
 
 blockquote {
@@ -111,5 +121,16 @@ blockquote {
 }
 
 @media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  body {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+
+  block-quote: 7rem;
 
 }
