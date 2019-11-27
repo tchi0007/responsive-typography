@@ -31,7 +31,7 @@ article {
 
 article h1 {
   font-weight: normal;
-  line-height: 1.4;
+  line-height: 1.2;
   margin-bottom: 0;
 }
 
@@ -40,7 +40,7 @@ article header {
 }
 
 article p {
-  margin-top: 1.5rem;
+  margin-top: 1.3rem;
 }
 
 article header p {
@@ -53,6 +53,7 @@ article header p {
 article > p:last-child {
   border-bottom: 1px solid #999;
   margin: 0;
+  margin-top: 1.3rem;
 }
 
 article ol {
@@ -65,7 +66,7 @@ blockquote {
   color: #555;
   font-size: 1.125rem;
   margin: 0;
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
 }
 
 .quote {
@@ -118,6 +119,15 @@ blockquote {
     margin-top: 1.5rem;
   }
 
+  article header {
+    line-height: 1.6;
+  }
+
+  article header p {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -127,9 +137,10 @@ blockquote {
   }
 
   body {
-    padding-left: 12rem;
-    padding-right: 12rem;
+    padding-left: 14.5rem;
+    padding-right: 14.5rem;
   }
+
 
   blockquote{
     margin-left: 7rem;
